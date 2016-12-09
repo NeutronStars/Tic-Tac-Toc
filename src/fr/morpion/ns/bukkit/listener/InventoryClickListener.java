@@ -29,8 +29,6 @@ public final class InventoryClickListener implements Listener {
 		
 		if(id == -1) return;
 		
-		Bukkit.broadcastMessage(id+"");
-		
 		if(morpion.getGrid().hasToken(id)){
 			ice.getWhoClicked().sendMessage(Morpion.getPrefix()+"§4Le slot n'est pas vide.");
 			return;
