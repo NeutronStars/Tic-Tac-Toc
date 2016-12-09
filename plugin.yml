@@ -1,0 +1,8 @@
+main: fr.morpion.ns.bukkit.plugin.MorpionJavaPlugin
+name: Tic-Tac-Toc
+version: 1.0.0
+author: Neutron_Stars
+commands:
+    tictactoc:
+    ttt:
+    morpion:
